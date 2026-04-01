@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Biomedical Device Distribution Analysis</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Biomedical Device Performance Analysis</h1>
+<p>Statistical Plots & Distribution Analysis</p>
+
+</header>
+
+
+<section class="container">
+
+<h2>Project Overview</h2>
+
+<p>
+This project analyzes the performance of biomedical devices used for
+patient diagnosis. The analysis focuses on diagnosis time, device
+accuracy and successful diagnosis rate. Statistical plots such as
+histograms, KDE plots and boxplots are used to inspect distributions,
+detect outliers and analyze skewness and spread.
+</p>
+
+</section>
+
+
+<section class="container">
+
+<h2>Sample Dataset</h2>
+
+<table>
+
+<tr>
+<th>Patient ID</th>
+<th>Device</th>
+<th>Diagnosis Time</th>
+<th>Accuracy</th>
+<th>Result</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>ECG</td>
+<td>5 min</td>
+<td>92%</td>
+<td>Success</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>MRI</td>
+<td>18 min</td>
+<td>96%</td>
+<td>Success</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Ultrasound</td>
+<td>10 min</td>
+<td>89%</td>
+<td>Success</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>ECG</td>
+<td>6 min</td>
+<td>85%</td>
+<td>Fail</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>MRI</td>
+<td>25 min</td>
+<td>94%</td>
+<td>Success</td>
+</tr>
+
+</table>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Statistical Plots</h2>
+
+<div class="plots-grid">
+
+<div class="card">
+
+<h3>Histogram</h3>
+
+<img src="images/histogram.png">
+
+<p>
+This histogram shows the distribution of diagnosis time across patients.
+Most devices complete diagnosis between 5 and 20 minutes.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>KDE Plot</h3>
+
+<img src="images/kde.png">
+
+<p>
+The KDE plot represents the density of device accuracy values and
+shows that most devices maintain accuracy above 85%.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Boxplot</h3>
+
+<img src="images/boxplot.png">
+
+<p>
+The boxplot helps identify outliers and shows the spread of diagnosis
+time across different biomedical devices.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Outliers, Skewness & Spread</h2>
+
+<p>
+Outliers represent extreme values that differ significantly from the
+majority of the dataset. In biomedical device analysis, unusually high
+diagnosis times may indicate device delays or complex patient cases.
+The distribution shows slight right skewness because a few cases
+required longer diagnosis time. The spread of the data is moderate,
+which indicates relatively stable device performance across patients.
+</p>
+
+</section>
+
+
+
+<section class="container">
+
+<h2>Interpretation</h2>
+
+<p>
+The statistical plots indicate that most biomedical devices perform
+diagnosis within 5 to 20 minutes while maintaining accuracy above
+85%. The histogram and KDE plots demonstrate a concentrated
+distribution of device accuracy, suggesting reliable diagnostic
+performance. The boxplot reveals a few higher diagnosis time values
+that act as potential outliers, indicating possible operational delays
+or patient-specific complexity. Overall, the data shows slightly
+right-skewed distribution with moderate spread, confirming stable
+performance among the analyzed biomedical devices.
+</p>
+
+</section>
+
+
+<footer>
+
+<p>Biomedical Engineering Statistical Analysis Project</p>
+
+</footer>
+
+</body>
+</html>

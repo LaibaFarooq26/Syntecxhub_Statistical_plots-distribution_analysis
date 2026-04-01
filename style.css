@@ -1,0 +1,107 @@
+body{
+
+font-family:"Segoe UI",Arial;
+margin:0;
+background:lab(83.03% 1.87 -4.95);
+color:#040404;
+
+}
+
+header{
+
+background:linear-gradient(90deg,#5b50d6,#7a6df0);
+color:white;
+text-align:center;
+padding:35px;
+
+}
+
+header h1{
+
+margin:0;
+font-size:32px;
+
+}
+
+header p{
+
+margin-top:8px;
+
+}
+
+.container{
+
+max-width:1100px;
+margin:auto;
+padding:40px;
+
+}
+
+table{
+
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+background:white;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+th,td{
+
+border:1px solid #eee;
+padding:12px;
+text-align:center;
+
+}
+
+th{
+
+background:#eef0ff;
+
+}
+
+.plots-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:30px;
+
+}
+
+.card{
+
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+text-align:center;
+transition:0.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+box-shadow:0 10px 30px rgba(0,0,0,0.15);
+
+}
+
+.card img{
+
+width:100%;
+border-radius:8px;
+margin-top:10px;
+
+}
+
+footer{
+
+background:#3d70d6;
+color:rgb(19, 15, 15);
+text-align:center;
+padding:15px;
+margin-top:40px;
+
+}
